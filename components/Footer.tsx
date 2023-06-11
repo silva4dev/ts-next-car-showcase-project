@@ -21,6 +21,7 @@ const Footer = () => (
           All Rights Reserved &copy;
         </p>
       </div>
+
       <div className="footer__links">
         {footerLinks.map((item) => (
           <div key={item.title} className="footer__link">
@@ -40,6 +41,7 @@ const Footer = () => (
         ))}
       </div>
     </div>
+
     <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
       <p>@2023 CarHub. All rights reserved</p>
 

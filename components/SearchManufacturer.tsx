@@ -82,6 +82,7 @@ const SearchManufacturer = ({
                         >
                           {item}
                         </span>
+
                         {selected ? (
                           <span
                             className={`absolute inset-y-0 left-0 flex items-center pl-3 ${
